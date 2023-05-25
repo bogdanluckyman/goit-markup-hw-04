@@ -376,16 +376,17 @@ img {
   color: var(--customers-color);
 }
 
-.customers-icon {
-  fill: currentColor;
-}
-
 .customers-link:is(:hover, :focus) {
-  border-color: var(--hover-color);
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-link:is(:hover, :focus) .customers-icon {
-  fill: var(--hover-color);
+  fill: #404bbf;
+}
+
+.customers-icon {
+  fill: currentColor;
 }
 
 /*------------- Footer------------- */
@@ -410,6 +411,23 @@ img {
   color: var(--footer-text);
   max-width: 264px;
   margin: 0;
+}
+
+.footer-icons {
+}
+
+.icons-title {
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
+.icons-box-footer {
+  gap: 16px;
 }
 
 /*------------- Portfolio------------- */
