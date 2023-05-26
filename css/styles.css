@@ -347,8 +347,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container {
-}
+
 .customers-title {
   color: var(--title-color);
   font-size: 36px;
@@ -399,6 +398,10 @@ img {
   color: var(--footer-text);
 }
 
+.footer-box {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -414,6 +417,7 @@ img {
 }
 
 .footer-icons {
+  fill: currentColor;
 }
 
 .icons-title {
@@ -423,11 +427,14 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .icons-box-footer {
   gap: 16px;
+}
+
+.footer-icon {
+  fill: var(--footer-text);
 }
 
 /*------------- Portfolio------------- */
